@@ -5,7 +5,7 @@ export const Category = ({ cover = IMAGEN, path, emoji: emoji = "?" }) => {
   return (
     <div>
       <Ancort href={path}>
-        <Image src={IMAGEN} />
+        <Image src={cover} />
         {emoji}
       </Ancort>
     </div>
