@@ -1,6 +1,6 @@
 import styled from "styled-components";
 const List = styled.ul`
-  background-color: red;
+  background-color: #c1c1c1;
 `;
 const Item = styled.li`
   color: blue;

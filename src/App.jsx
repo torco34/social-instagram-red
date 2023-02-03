@@ -1,15 +1,16 @@
-import { useState } from 'react'
 
-import './App.css'
+import React from "react";
+import { Category } from "./components/Category";
 
+import { ListOfCategories } from "./components/ListOfCategories";
 function App() {
-
-
   return (
-    <div className="App">
-      hola mundo
+    <div>
+   
+      <Category />
+      <ListOfCategories />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
