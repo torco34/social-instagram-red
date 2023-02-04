@@ -1,14 +1,14 @@
 import React from "react";
-import { GlobalStyle } from './GlobalStyle'
+import { GlobalStyle } from "./GlobalStyle";
 import { ListOfCategories } from "./components/ListOfCategories";
- function App() {
+import { PhotoCard } from "./components/PhotoCard";
+function App() {
   return (
     <>
-      <GlobalStyle/>
+      <GlobalStyle />
       <ListOfCategories />
+      <PhotoCard />
     </>
   );
 }
-export {App}
-
-
+export { App };
