@@ -94,5 +94,3 @@ export const Logo = (props) => (
     </g>
   </Svg>
 );
-
-// export default SvgComponent
